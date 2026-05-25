@@ -12,6 +12,26 @@ This project analyzes a multi-dimensional e-commerce transactional dataset to su
 `Power BI` · `DAX` · `Python (pandas, scikit-learn)` · `RFM Analysis`
 
 ---
+## ⚙️ DAX Architecture — Calculation Groups
+
+To avoid measure explosion across 3 report pages, all time-intelligence and 
+variance calculations were consolidated using **DAX Calculation Groups** 
+instead of writing individual measures per KPI per variance type.
+
+| Calculation Item | Description |
+|-----------------|-------------|
+| `MoM%` | Month-over-Month % change |
+| `QoQ%` | Quarter-over-Quarter % change |
+| `YoY%` | Year-over-Year % change |
+| `MTD` | Month-to-Date cumulative value |
+| `QTD` | Quarter-to-Date cumulative value |
+| `YTD` | Year-to-Date cumulative value |
+
+**Impact:** A single base measure (e.g. `[Revenue]`) automatically inherits 
+all 6 variance behaviors via the slicer — replacing what would have been 
+6 × N duplicate measures across the model.
+
+---
 
 ## 📄 Dashboard Pages
 
