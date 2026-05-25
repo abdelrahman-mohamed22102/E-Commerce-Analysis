@@ -39,7 +39,7 @@ all 6 variance behaviors via the slicer — replacing what would have been
 
 > KPI summary, revenue & profit trends, and geographic performance — filterable by Year, Month, Quarter, and Variance mode (QoQ%, YoY%, MoM%, QTD, YTD, MTD).
 
-![Executive Overview](page1-overview.gif)
+![Executive Overview](1-ezgif.com-video-to-gif-converter.gif)
 
 **What's included:**
 - 📦 **# Customers** and **# Orders** with % variances sparklines
@@ -55,7 +55,7 @@ all 6 variance behaviors via the slicer — replacing what would have been
 
 > RFM-based customer segments with revenue contribution breakdowns — filterable by Year, Month, Quarter, and Variance mode (QoQ%, YoY%, MoM%, QTD, YTD, MTD).
 
-![RFM Segmentation](page2-rfm-segments.gif)
+![RFM Segmentation](2-ezgif.com-video-to-gif-converter.gif)
 
 **What's included:**
 - 👥 **# Customers** with variances change indicators — May 2020 example: 96 customers, ▲15.7%
@@ -71,7 +71,7 @@ all 6 variance behaviors via the slicer — replacing what would have been
 
 > Monthly cohort retention curves, churn/retention KPIs, and a customer-level drill-through table.
 
-![Retention & Churn](page3-retention-churn.gif)
+![Retention & Churn](3-ezgif.com-video-to-gif-converter.gif)
 
 **What's included:**
 - 🔢 **# Customers** · **# New CST** · **# Retained CST** · **# Churned CST** KPI cards
